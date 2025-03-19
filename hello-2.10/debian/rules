@@ -10,3 +10,6 @@ override_dh_installdocs:
 
 override_dh_builddeb:
 	dh_builddeb -- -Zzstd
+override_dh_install:
+	dh_install
+	install -m 755 testing.sh $(CURDIR)/debian/hello/usr/bin/

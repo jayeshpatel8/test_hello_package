@@ -1,3 +1,10 @@
+hello (2.10-2ubuntu5) jammy; urgency=medium
+
+  * Added testing.sh script and postinst message printing
+    "this is a test from Jayeshkumar Natvarlal Patel"
+
+ -- Jayesh Patel <jnpatel81@gmail.com>  Wed, 19 Mar 2025 13:23:19 +0100
+
 hello (2.10-2ubuntu4) jammy; urgency=medium
 
   * No-change rebuild for ppc64el baseline bump.
